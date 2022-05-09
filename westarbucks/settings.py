@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'products',
     'corsheaders',
     # 'django.contrib.admin',
     # 'django.contrib.auth',
@@ -74,6 +75,8 @@ CORS_ALLOW_HEADERS = (
     'x-csrftoken',
     'x-requested-with',
 )
+
+APPEND_SLASH = False
 
 
 
